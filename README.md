@@ -2,6 +2,8 @@
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/saracmert/Telegram-Notification-Worker)
 
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mertsarac)
+
 If you are a paid Cloudflare user, you can receive real-time notifications from your Cloudflare account via Telegram by creating a webhook.
 
 # Installation Steps
