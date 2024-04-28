@@ -1,6 +1,14 @@
 name: Deploy Worker
 on: [push, pull_request]
 jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: saracmert/devgizmos
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 60
